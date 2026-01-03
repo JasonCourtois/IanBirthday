@@ -48,7 +48,8 @@ window.onload = () => {
             header.innerHTML = "YOU ARE SEEING ED SHEERAN WITH US! <br/> Mark Saturday September 26th 2026 in your calendar!";
             drums.style.display = "none";
 
-            mainContainer.style.backgroundColor = "transparent";
+            document.body.style.backgroundColor = "#ff74ca";
+            document.documentElement.style.backgroundColor = "#ff74ca";
 
             revealImage.style.display = "block";
 
